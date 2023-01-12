@@ -6,9 +6,9 @@ terraform {
   }
 }
 
-resource "steampipecloud_workspace_mod" "github_activity" {
+resource "steampipecloud_workspace_mod" "graph_node_edge_with_examples" {
   organization = "acme" 
   workspace_handle = "jon"
-  path = "github.com/judell/github-activity"
-  constraint = "v0.18"
+  path = "github.com/judell/relationship"
+  constraint = "v0.1"
 }
